@@ -28,7 +28,6 @@ I started by checking the resources and network information available on the ser
 
 Some of the commands I used were:
 
-```bash
 lscpu
 free -h
 lsblk
@@ -40,7 +39,7 @@ This helped me understand what the VM actually looked like from inside Linux ins
 
 I was able to check the CPU, RAM, disks, storage usage, IP addresses and routing information.
 
-Linux Users and Permissions
+## Linux Users and Permissions
 
 I created a separate Linux user for the lab and gave the account sudo privileges.
 
@@ -62,7 +61,7 @@ chmod 600 test.txt
 
 This gave me more practical experience with Linux users, groups and permissions.
 
-Installing Nginx
+## Installing Nginx
 
 Next, I installed Nginx on the VM.
 
@@ -78,7 +77,7 @@ I also accessed the Nginx welcome page through the VM's public IP to confirm tha
 
 This helped me connect the Linux side of the lab with networking and web-server concepts.
 
-Adding Extra Storage
+## Adding Extra Storage
 
 This was one of the parts that made me think a little more.
 
@@ -113,7 +112,7 @@ sudo blkid /dev/vdb
 
 to identify the filesystem UUID and started working with /etc/fstab to understand persistent mounting.
 
-VM Lifecycle
+## VM Lifecycle
 
 I also tested the VM lifecycle by working with the different states of the machine.
 
@@ -127,7 +126,7 @@ During this part, I checked things such as the IP addresses, storage and install
 
 This gave me a better understanding of the difference between simply rebooting a server and actually stopping/deallocating it.
 
-Vertical Scaling
+## Vertical Scaling
 
 I also tested vertical scaling on the Nobus VM.
 
