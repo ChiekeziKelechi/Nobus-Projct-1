@@ -22,6 +22,7 @@ The VM included:
 
 After connecting, I used the Linux terminal to inspect and manage the machine.
 
+
 ## Getting Familiar With the VM
 
 I started by checking the resources and network information available on the server.
