@@ -22,6 +22,9 @@ The VM included:
 
 After connecting, I used the Linux terminal to inspect and manage the machine.
 
+![Nobus VM Created](./Screenshot%202026-09-15%20153258.png)
+
+![SSH Connection](./Screenshot%202026-09-15%20160040.png)
 
 ## Getting Familiar With the VM
 
@@ -39,6 +42,8 @@ ip route
 This helped me understand what the VM actually looked like from inside Linux instead of only looking at the Nobus dashboard.
 
 I was able to check the CPU, RAM, disks, storage usage, IP addresses and routing information.
+
+![Linux System and Network Checks](./Screenshot%202026-09-15%20163230.png)
 
 ## Linux Users and Permissions
 
@@ -62,6 +67,8 @@ chmod 600 test.txt
 
 This gave me more practical experience with Linux users, groups and permissions.
 
+![Linux Users and Permissions](./Screenshot%202026-09-15%20164506.png)
+
 ## Installing Nginx
 
 Next, I installed Nginx on the VM.
@@ -77,6 +84,8 @@ curl localhost
 I also accessed the Nginx welcome page through the VM's public IP to confirm that the web server could be reached externally.
 
 This helped me connect the Linux side of the lab with networking and web-server concepts.
+
+![Nginx Installation and Status](./Screenshot%202026-09-16%20125815.png)
 
 ## Adding Extra Storage
 
@@ -112,6 +121,8 @@ sudo blkid /dev/vdb
 
 
 to identify the filesystem UUID and started working with /etc/fstab to understand persistent mounting.
+
+![Nobus Vertical Scaling](./Screenshot%202026-09-16%20135326.png)
 
 ## VM Lifecycle
 
